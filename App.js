@@ -17,12 +17,12 @@ const theme ={
 
 const App=()=> {
   const [loaded] = useFonts({
-    RobotoItalic: require("./assets/fonts/Roboto-Italic.ttf"),
-    RobotoLight: require("./assets/fonts/Roboto-Light.ttf"),
-    RobotoThin: require("./assets/fonts/Roboto-Italic.ttf"),
-    RobotoBold: require("./assets/fonts/Roboto-Bold.ttf"),
-    RobotoMedium: require("./assets/fonts/Roboto-Medium.ttf"),
-    Robotoegular: require("./assets/fonts/Roboto-Regular.ttf"),
+    Light: require("./assets/fonts/Roboto-Light.ttf"),
+    Thin: require("./assets/fonts/Roboto-Italic.ttf"),
+    Bold: require("./assets/fonts/Roboto-Bold.ttf"),
+    Medium: require("./assets/fonts/Roboto-Medium.ttf"),
+    Regular: require("./assets/fonts/Roboto-Regular.ttf"),
+    SemiBold: require("./assets/fonts/Roboto-Condensed.ttf"),
   });
 
   if (!loaded) {
